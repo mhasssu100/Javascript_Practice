@@ -247,7 +247,45 @@
 // console.log(str2);
 // console.log(str.toLowerCase());
 
-let fullName = prompt("Enter Your Full Name");
-fullName = fullName.toLowerCase();
-let userNam = "@"+ fullName + fullName.length;
-alert(userNam);
+// let fullName = prompt("Enter Your Full Name");
+// fullName = fullName.toLowerCase();
+// let userNam = "@"+ fullName + fullName.length;
+// alert(userNam);
+
+//ARRAYS PRACTICE <====
+
+// let marks = [97, 85, 76, 64, 55, 43, 36];
+// let sum = 0;
+// // FOR OF LOOP// <======== 
+// // for (let val of marks) {
+// //     sum = sum + val;
+// // }
+// // avgMrks = sum / marks.length
+// // console.log(`avg Marks = ${avgMrks}`);
+
+// FOR LOOP <======
+// let studntMrks = [99,87,76,65,43,31];
+// sum = 0;
+// for (i =0 ; i <studntMrks.length ; i++) {
+//     sum = sum + studntMrks[i];
+// }
+// avg = sum / studntMrks.length
+// console.log(avg);
+ 
+let items = [250,350,420,560,680];
+// FOR OF LOOP
+// let i = 0;
+// for ( let price of items) {
+//     // console.log(`price of ${i} = ${price}`);
+// let offer = price /10;
+// items[i] = items[i] -offer 
+// console.log(`price of items after offer = ${items[i]}`);
+//     i++;
+// }
+// console.log(items);
+let offer = 0;
+for (i = 0; i < items.length; i++) {
+ offer = items / 10; 
+ console.log(offer);
+ 
+}
