@@ -271,8 +271,7 @@
 // }
 // avg = sum / studntMrks.length
 // console.log(avg);
- 
-let items = [250,350,420,560,680];
+
 // FOR OF LOOP
 // let i = 0;
 // for ( let price of items) {
@@ -283,9 +282,9 @@ let items = [250,350,420,560,680];
 //     i++;
 // }
 // console.log(items);
-let offer = 0;
+let items = [250, 350, 420, 560, 680];
 for (i = 0; i < items.length; i++) {
- offer = items / 10; 
- console.log(offer);
- 
+  let offer = items[i] / 10;
+  items[i] -=offer
 }
+console.log(items);
