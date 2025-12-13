@@ -282,9 +282,37 @@
 //     i++;
 // }
 // console.log(items);
-let items = [250, 350, 420, 560, 680];
-for (i = 0; i < items.length; i++) {
-  let offer = items[i] / 10;
-  items[i] -=offer
-}
-console.log(items);
+// let items = [250, 350, 420, 560, 680];
+// for (i = 0; i < items.length; i++) {
+//   let offer = items[i] / 10;
+//   items[i] -=offer
+// }
+// console.log(items);
+
+// let heros = ["ironman", "batman","spiderman"];
+// heros.push("superman","batman","shaktiman");
+// console.log(heros);
+// let dltHero=heros.pop()
+// console.log(heros);
+// console.log("dleted herp =",dltHero);
+
+// let hero1 = ["superman", "batman", "spiderman"];
+// let hero2 = ["ironman","thor"];
+// let hero3 = ["venom","greenman"];
+// let Hero3 = hero3.shift()
+// let rHero = hero2.concat(hero1,Hero3);
+// console.log(rHero);
+// console.log("dlt hro",Hero3);
+
+// let heros = ["spiderman","batman","superman","actman","hulk","venom","greenman"];
+// let dheros = heros.shift();
+// console.log(dheros);
+// console.log(heros);
+
+//  let heros = ["spiderman","batman","superman","actman","hulk","venom","greenman"];
+//  let mhero = heros.slice(1,5);
+//  console.log(mhero);
+ 
+let heros = ["spiderman","batman","superman","actman","hulk","venom","greenman"];
+ heros.splice(2,0,10,11,12)
+console.log(heros);
