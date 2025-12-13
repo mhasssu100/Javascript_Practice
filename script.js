@@ -313,6 +313,25 @@
 //  let mhero = heros.slice(1,5);
 //  console.log(mhero);
  
-let heros = ["spiderman","batman","superman","actman","hulk","venom","greenman"];
- heros.splice(2,0,10,11,12)
-console.log(heros);
+// let heros = ["spiderman","batman","superman","actman","hulk","venom","greenman"];
+//  heros.splice(2,0,10,11,12)
+// console.log(heros);
+//PRACTICE ARRAYS SHIFT/POP METHODS <====
+
+let arr = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+arr.shift();
+arr.pop();
+console.log(arr);
+// PRACTICE ARRAYS SPLICE METHODS <=====
+
+let arr1 = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+console.log(arr1);
+arr1.splice(2,1,"Ola")
+console.log(arr1);
+//PRACTICE ARRAYS PUSH & UNSHIFT METHODS <=====
+let arr2 = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+arr2.push("Amazon");
+console.log(arr2);
+arr2.unshift("Amazon");
+console.log(arr2);
+
