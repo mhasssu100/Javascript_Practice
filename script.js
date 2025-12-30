@@ -24,7 +24,7 @@
 
 // // // // // // // // // // // // // // // // // //UNARY OPERATOR//
 
-// // // // // // // // // // // // // // // // // //INCREAMENT// 
+// // // // // // // // // // // // // // // // // //INCREAMENT//
 // // // // // // // // // // // // // // // // // let a = 5;
 // // // // // // // // // // // // // // // // // let b = 10;
 // // // // // // // // // // // // // // // // // let sub = ("a++ =", a++ + b--) //POST INCREMENT / DECREMENT//
@@ -88,7 +88,7 @@
 // // // // // // // // // // // // // // // let age = 23.5;
 // // // // // // // // // // // // // // // let result;
 // // // // // // // // // // // // // // // if(age === 18) {
-// // // // // // // // // // // // // // //     result = "Your are eligible";    
+// // // // // // // // // // // // // // //     result = "Your are eligible";
 // // // // // // // // // // // // // // // } else if (age < 18){
 // // // // // // // // // // // // // // //     result = "Your are Junior";
 // // // // // // // // // // // // // // // } else if (age > 18 && age <= 24 ) {
@@ -99,8 +99,8 @@
 // // // // // // // // // // // // // // // console.log(result);
 
 // // // // // // // // // // // // // // //TERNARY OPERATOR *******
-// // // // // // // // // // // // // // let age = 15; 
-// // // // // // // // // // // // // // result = age > 18? "Eligle" : "Not Elgible"; 
+// // // // // // // // // // // // // // let age = 15;
+// // // // // // // // // // // // // // result = age > 18? "Eligle" : "Not Elgible";
 // // // // // // // // // // // // // // console.log(result)
 
 
@@ -130,14 +130,14 @@
 // // // // // // // // // // // // }
 // // // // // // // // // // // var a = 1;
 // // // // // // // // // // // var b = 1;
-// // // // // // // // // // // // var result = ++a + a++ + b++ + ++b + a + b 
+// // // // // // // // // // // // var result = ++a + a++ + b++ + ++b + a + b
 // // // // // // // // // // // // //         = 2   + 2   + 1   +  3  + 3 + 3;
 // // // // // // // // // // // // console.log("Wrong Answer",result)
 // // // // // // // // // // // // let result1 = b++ + ++b + ++a + a++ + a++ + a + b;
-// // // // // // // // // // // // //         =  1   +  3  +  2  + 2   + 3   + 4 + 3 ; 
+// // // // // // // // // // // // //         =  1   +  3  +  2  + 2   + 3   + 4 + 3 ;
 // // // // // // // // // // // // console.log("Wrong Answer"result1)
 // // // // // // // // // // // // let result = a++ + b++ + ++a + ++b + ++a + ++b + a + b ;
-// // // // // // // // // // // // // //         = 1   + 1   + 3   + 3   + 4   + 4   + 4 + 4 ; 
+// // // // // // // // // // // // // //         = 1   + 1   + 3   + 3   + 4   + 4   + 4 + 4 ;
 // // // // // // // // // // // // // console.log( "Correct Answer"result);
 // // // // // // // // // // // // let result = ++a + ++a + ++b + ++b + b++ + a++ + a + b + b;
 // // // // // // // // // // // // //         = 2   + 3   + 2   + 3   + 3   + 3   + 4 + 4 + 4 ;
@@ -153,14 +153,14 @@
 // // // // // // // // // // result = a++ + ++a + a
 // // // // // // // // // // console.log(result)
 
-// // // // // // // // // let a = 10; 
+// // // // // // // // // let a = 10;
 // // // // // // // // // result= ++a + ++a + a++ + ++a + ++a + a;
 // // // // // // // // // // //    = 11  + 12  + 12  + 14  + 15  + 15 = 79
 // // // // // // // // // // console.log(result)
 // // // // // // // // // let prompt = require('prompt-sync')();
 // // // // // // // // // let num1 = Number(prompt("Entre Your Number"));
 // // // // // // // // // let num2 = Number(prompt("Entre Your  Second Number"));
-// // // // // // // // // let sum = num1 + num2; 
+// // // // // // // // // let sum = num1 + num2;
 // // // // // // // // // console.log("sum is",sum);
 // // // // // // // // let name = prompt("Enter Your Name");
 // // // // // // // // alert("Hello " + name);
@@ -184,7 +184,7 @@
 // // // // console.log("sum =", sum);
 
 // // //  // WHILE LOOP <==
-// // // let i=1;    
+// // // let i=1;
 // // // let sum = 0;
 // // // let n =5;
 // // // while (i<=n){
@@ -194,7 +194,7 @@
 // // // console.log(sum)
 
 // // // (FOR'OF) LOOP <== USING FOR "STRINGS" AND ARRAYS
-// // // uName = "Hassan";  
+// // // uName = "Hassan";
 // // // size =0;
 // // // for (let val of uName) {
 // // //     console.log("val =",uName);
@@ -256,7 +256,7 @@
 
 // let marks = [97, 85, 76, 64, 55, 43, 36];
 // let sum = 0;
-// // FOR OF LOOP// <======== 
+// // FOR OF LOOP// <========
 // // for (let val of marks) {
 // //     sum = sum + val;
 // // }
@@ -277,7 +277,7 @@
 // for ( let price of items) {
 //     // console.log(`price of ${i} = ${price}`);
 // let offer = price /10;
-// items[i] = items[i] -offer 
+// items[i] = items[i] -offer
 // console.log(`price of items after offer = ${items[i]}`);
 //     i++;
 // }
@@ -345,7 +345,7 @@
 
 // function myfunction(msg) {
 //     console.log(msg);  //<===PARAMETER
-// } 
+// }
 // myfunction("This is Hassan")   //ARGUMENTS
 
 // function myfunction(m, n) {
@@ -354,15 +354,60 @@
 // myfunction(5, 5 + 10);
 
 // function myFunction(val) {
-//     prompt("val");  
+//     prompt("val");
 // }
 // function sum(x,y) {
 //     console.log(x*y);
 // }
 
-function sum (x,y){
-    s = x / y;
-    return s;
-}
-let val = sum(3,7);
-console.log(val);
+// function sum (x,y){
+//     s = x + y;
+//     return s;
+// }
+// let val = sum(3,7);
+// console.log(val);
+// SUM FUNCTION
+
+// function sum(a, b) {
+//     return a+b;
+// }
+
+// MULTIPLICATION FUNCTION
+// function mul(a,b) {
+//     return a*b;
+// }
+
+// //ARROW FUNCTION SUM
+// const arrowSum = (a,b) => {
+//     console.log(a+b);
+// }
+
+// //ARROW FUNCTION MULTIPLICATION
+// const arrowMul = (a,b) =>{
+//     console.log(a*b);
+// }
+
+// function vowels(str){
+// let count = 0;
+// for(let char of str){
+//     if(char === "a" ||char === "e" ||char === "i"||char === "o"||char === "u"){
+//         count++
+//         console.log(`${char} is a vowel`);
+//     }
+// }
+// return count;
+// }
+// function vowels(str) {
+// let count = 0;
+// for(let char of str){
+//     if(char === "a" ||char === "e" ||char === "i"||char === "o"||char === "u"){
+//         count++
+//         console.log(`${char} is a vowel`);
+//     }
+// }
+// return count;
+// }
+let arr = ["a","b","c","d","e","f","g"];
+arr.forEach((val) => 
+    {console.log(val);}
+);
