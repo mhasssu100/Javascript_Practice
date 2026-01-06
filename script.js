@@ -406,8 +406,51 @@
 //     }
 // }
 // return count;
+// // }
+// let arr = ["a","b","c","d","e","f","g"];
+// arr.forEach((val) => 
+//     {console.log(val);}
+// );
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
 // }
-let arr = ["a","b","c","d","e","f","g"];
-arr.forEach((val) => 
-    {console.log(val);}
-);
+// let num = 7;
+
+// if (num % 2 === 0) {
+//     console.log("Even number");
+// } else {
+//     console.log("Odd number");
+// }
+// function add(a, b) {
+//     return a + b;
+// }
+
+// console.log(add(5, 3));
+// const greet = (name) => {
+//     console.log("Hello " + name);
+// };
+
+// greet("Hassu");
+// let marks = [85, 72, 90, 66];
+
+// let total = 0;
+// for (let mark of marks) {
+//     total += mark;
+// }
+
+// let average = total / marks.length;
+// // console.log("Average =", average);
+// let arr = ["Karachi","Hyderabad","Larkana","Islamabad"];
+// arr.forEach((val,idx) => {
+//     console.log(val.toUpperCase(),idx);
+// })
+let numx = [84,45,86,68,94,73];
+// numx.forEach((numx) => {
+//     console.log(numx**4);
+    
+// })
+let calcSquare = (numx) => {
+    console.log(numx**2);
+}
+numx.forEach(calcSquare);
