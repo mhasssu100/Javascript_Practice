@@ -444,13 +444,36 @@
 // let arr = ["Karachi","Hyderabad","Larkana","Islamabad"];
 // arr.forEach((val,idx) => {
 //     console.log(val.toUpperCase(),idx);
-// })
-let numx = [84,45,86,68,94,73];
-// numx.forEach((numx) => {
-//     console.log(numx**4);
+// // })
+// let numx = [84,45,86,68,94,73];
+// // numx.forEach((numx) => {
+// //     console.log(numx**4);
     
-// })
-let calcSquare = (numx) => {
-    console.log(numx**2);
-}
-numx.forEach(calcSquare);
+// // })
+// let calcSquare = (numx) => {
+//     console.log(numx**2);
+// }
+// // numx.forEach(calcSquare);
+// let num = [2,4,9,8,6];
+// let newNum = num.map((val) => {
+//     // return val*val ;
+//     return val * 2;
+// });
+// console.log(newNum);
+// FILTER METHOD 
+// let arr = [1,2,3,4,5,6,7];
+// let evenArray = arr.filter((value) => {
+//     return value > 2 ;
+// });
+// console.log(evenArray);
+// // console.log(arr);
+// let arr = [4,9,101,65,685,464,785];
+// const output = arr.reduce((prev,curr) => {
+//     return prev + curr ;
+// });
+// console.log(output);
+let arr = [1,2,3,8,9,10,15];
+const output = arr.reduce((prev,curr) =>{
+    return prev > curr ? prev : curr;
+});
+console.log(output);
